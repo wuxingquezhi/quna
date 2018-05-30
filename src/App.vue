@@ -1,23 +1,19 @@
 <template>
- <div>
-   hello world
- </div>
+  <div>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
+  </div>
 </template>
 
 <script>
- export default {
-   data () {
-     return {
-
-     }
-   },
-   components: {
-
-   }
- }
+export default {
+  data() {
+    return {};
+  },
+  components: {}
+};
 </script>
 
 <style>
-
- 
 </style>
