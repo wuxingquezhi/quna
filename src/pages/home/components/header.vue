@@ -35,16 +35,16 @@ export default {
 .header-input {
     color: #ccc;
     flex: 1;
-    height: 0.64rem;
-    line-height: 0.64rem;
-    margin-top: 0.12rem;
+    height: 0.60rem;
+    line-height: 0.60rem;
+    margin-top: 0.13rem;
     margin-left: 0.2rem;
     background: #fff;
     border-radius: 0.1rem;
     padding-left: .2rem;
 }
 .header-right {
-    flex-basis: 1.24rem;
+    flex-basis: 1.60rem;
     text-align: center;
 }
 .arrow-icon{
@@ -54,5 +54,6 @@ export default {
     text-align: center;
     font-size: .4rem;
     display: block;
+    font-weight: 600;
 }
 </style>
